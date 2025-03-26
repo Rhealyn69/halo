@@ -3,133 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rhealyn S. Eway - Resume</title>
+    <title>Fabulous Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Sacramento&display=swap" rel="stylesheet">
     <style>
-        /* General Body Styles */
-        body {
-            font-family: 'Helvetica Neue', Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            line-height: 1.8;
-            color: #444;
-            background-color: #f5f5f5;
-            text-align: left;
-        }
+      body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
 
-        /* Header Styles */
-        header {
-            text-align: center;
-            background: linear-gradient(45deg, #3498db, #8e44ad);
-            color: white;
-            padding: 60px 20px;
-            border-bottom: 10px solid #f5f5f5;
-        }
+.resume {
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    background: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
+    border-radius: 15px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+    overflow: hidden;
+    padding: 20px;
+}
 
-        header img {
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
-            margin-bottom: 20px;
-            border: 4px solid white;
-        }
+.sidebar {
+    background-color: #4A6572; /* Teal primary color */
+    color: white;
+    width: 250px;
+    padding: 20px;
+}
 
-        h1 {
-            font-size: 2.8em;
-            margin-bottom: 10px;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-        }
+.sidebar h1 {
+    color: white;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
 
-        p {
-            font-size: 1.2em;
-            color: #f0f0f0;
-        }
+.main {
+    flex-grow: 1;
+    padding: 20px;
+}
 
-        /* Section Styles */
-        section {
-            margin: 40px auto;
-            padding: 30px;
-            background-color: white;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-            max-width: 900px;
-        }
+section {
+    margin-bottom: 30px;
+    border-left: 6px solid #66CDAA; /* Accent color */
+    padding-left: 15px;
+}
 
-        h2 {
-            font-size: 2em;
-            color: #2c3e50;
-            margin-bottom: 20px;
-            font-weight: bold;
-            text-transform: uppercase;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 10px;
-        }
+section h2 {
+    color: #66CDAA; /* Accent color */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
 
-        /* List Styles */
-        ul {
-            padding-left: 30px;
-            margin-bottom: 0;
-        }
-<style>
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+
+
+    </style>
 </head>
 <body>
 
-    <header>
-        <img src="1742892408522.jpg" alt="My Profile Picture">
-        <h1>Rhealyn S. Eway</h1>
-        <p>Prk San Pedro, Panduma Sr., Tukuran, Zamboanga Del Sur</p>
-        <p>09811489365</p>
-    </header>
+    <div class="resume">
+        
+        <div class="sidebar">
+            <img src="photos.jpg" alt="Profile Picture">
+            <h1>Rhea M. Magsalay</h1>
+            <p>Purok Bombil, Sugod, Tukuran, Zamboanga Del Sur</p>
+            <p>📞 09126139925</p>
+            <p>📧 <strong>Email:</strong> rheamagsalay68@gmail.com</p>
+            <p>📍 <strong>Location:</strong> Sugod, Tukuran</p>
+        </div>
 
-    <section>
-        <h2>Career Objective</h2>
-        <p>To utilize my skills and knowledge in a dynamic and growth-oriented environment, enhancing my expertise while contributing to the success of the organization.</p>
-    </section>
+        <!-- Main Content -->
+        <div class="main">
+            <div class="section">
+                <h2>Career Objective</h2>
+                <p>To utilize my knowledge and passion for education, inspiring students and enhancing my teaching skills.</p>
+            </div>
 
-    <section>
-        <h2>Summary</h2>
-        <p>Motivated and detail-oriented individual with a strong background in Business Budgeting and Public Accounting. Dedicated to applying analytical skills and knowledge to thrive in a professional setting.</p>
-    </section>
+            <div class="section">
+                <h2>Educational Background</h2>
+                <ul>
+                    <li>📖 <strong>Elementary:</strong> Sugod Elementary School</li>
+                    <li>📘 <strong>Secondary:</strong> Potenciano Solon Bandolon Memorial National High School</li>
+                    <li>🎓 <strong>Tertiary:</strong> Zamboanga Del Sur Provincial Government College - Tukuran Campus</li>
+                </ul>
+            </div>
 
-    <section class="personal-info">
-        <h2>Personal Information</h2>
-        <p><strong>Name:</strong> Rhealyn S. Eway</p>
-        <p><strong>Birthdate:</strong> July 18, 2006</p>
-        <p><strong>Birthplace:</strong> Panduma Sr., Tukuran, Zamboanga Del Sur</p>
-        <p><strong>Status:</strong> Single</p>
-        <p><strong>Age:</strong> 18</p>
-        <p><strong>Sex:</strong> Female</p>
-        <p><strong>Father's Name:</strong> Remie J. Eway</p>
-        <p><strong>Mother's Name:</strong> Nancy C. Sernicula</p>
-    </section>
+            <div class="section">
+                <h2>Skills</h2>
+                <ul>
+                    <li>💻 Computer Literacy</li>
+                    <li>🛠️ Electrical Wiring</li>
+                    <li>📸 Photography</li>
+                    <li>🎨 Graphic Editing</li>
+                </ul>
+            </div>
 
-    <section>
-        <h2>Education</h2>
-        <ul>
-            <li><strong>Zamboanga Del Sur Provincial Government College - Tukuran Campus</strong></li>
-            <li><strong>Tukuran Technical Vocational High School</strong></li>
-            <li><strong>Tukuran Central Elementary School</strong></li>
-        </ul>
-    </section>
+            <div class="section">
+                <h2>Reference</h2>
+                <p><strong>Reychelle Magsalay</strong></p>
+                <p>📍 Alindahaw, Tukuran</p>
+                <p>📞 09129867408</p>
+            </div>
 
-    <section>
-        <h2>Skills</h2>
-        <ul>
-            <li>Public Accounting</li>
-            <li>Data Analysis</li>
-            <li>Data Entry</li>
-            <li>Business Budgeting</li>
-        </ul>
-    </section>
-
-    <section class="references">
-        <h2>References</h2>
-        <p><strong>Kisha Magallon</strong></p>
-        <p>Davao City</p>
-        <p>09949768089</p>
-    </section>
-
-</body>
-    </html>
+            <div clas
